@@ -5,3 +5,8 @@ print(f"meu nome: {nome}\nminha idade:{idade}\nLinguagem favorita: {programacao}
 ano_atual = int(input('Em que ano estamos?') )
 ano_nascimento = (ano_atual-idade)
 print (f'ano atual: {ano_atual} - idade {idade} = ano nascimento: {ano_nascimento}')
+mensagem = f"""
+Olá {nome}!
+Estamos em {ano_atual}.\n Você nasceu em {ano_nascimento} , e tem {idade} anos.
+"""
+print(mensagem)
